@@ -1,5 +1,5 @@
 # drq
-drq - do Redis Queue Function
+drq - Do Redis Queue Function
 
 
 ## About
