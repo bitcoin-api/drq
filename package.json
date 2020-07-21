@@ -1,0 +1,25 @@
+{
+  "name": "drq",
+  "version": "1.0.0",
+  "description": "Do Redis Queue Function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcoin-api/drq.git"
+  },
+  "keywords": [
+    "redis",
+    "queue",
+    "function",
+    "streams"
+  ],
+  "author": "Michael Stecky-Efantis",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bitcoin-api/drq/issues"
+  },
+  "homepage": "https://github.com/bitcoin-api/drq#readme"
+}
