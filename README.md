@@ -14,12 +14,12 @@ Do Asynchronous Operation in Queue Using Redis
 ```.js
 'use strict';
 
-const drf = require( 'drf' );
+const drq = require( 'drq' );
 
 
 (async () => {
 
-    await drf({
+    await drq({
 
         queueId: 'testQueueId',
         doOperation = () => {
@@ -38,7 +38,7 @@ const drf = require( 'drf' );
         },
     });
 
-    await drf({
+    await drq({
 
         queueId: 'testQueueId',
         doOperation = () => {
