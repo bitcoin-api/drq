@@ -65,7 +65,9 @@ const drq = require( 'drq' );
         },
     });
 
-    await Promise.all([ drqOperationOne, drqOperationTwo ]);
+    const results = await Promise.all([ operationOne, operationTwo ]);
+
+    console.log( 'results:', results[0], results[1] );
 })();
 
 
@@ -77,5 +79,6 @@ const drq = require( 'drq' );
     will log after 2 seconds:
 
         operation in queue 2
+        results: x y
 */
 ```
