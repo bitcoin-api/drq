@@ -18,14 +18,17 @@ const doOperationInQueueCore = require( './doOperationInQueueCore' );
 const drf = async ({
 
     queueId,
-    doOperation = () => Promise.resolve(),
-    doOperationArgs = [],
+    operation = () => Promise.resolve(),
+    operationArgs = [],
     timeout = TIMEOUT,
     operationTimeout = OPERATION_TIMEOUT,
 
     getCustomBeginningSearchTime = null, // ({ operationTimeKey }) => ...
 
 }) => {
+
+    const doOperation = operation;
+    const doOperationArgs = operationArgs;
 
     if( !queueId ) {
 

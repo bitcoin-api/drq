@@ -26,7 +26,7 @@ const drq = require( 'drq' );
     await drq({
 
         queueId: 'testQueueId',
-        doOperation: () => {
+        operation: () => {
             
             return new Promise( resolve => {
 
@@ -45,7 +45,7 @@ const drq = require( 'drq' );
     await drq({
 
         queueId: 'testQueueId',
-        doOperation: () => {
+        operation: () => {
             
             return new Promise( resolve => {
 
