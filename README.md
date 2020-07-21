@@ -6,7 +6,7 @@ drq - do Redis Queue Function
 
 Do Asynchronous Operation in Queue Using Redis
 
-# Set Up
+## Set Up
 `process.env.REDIS_URL` needs to be set to your Redis URL
 
 ## Example
