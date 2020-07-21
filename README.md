@@ -1,20 +1,9 @@
-# drq
-drq - Do Redis Queue Function
-
-
-## About
-
-Do Asynchronous Operation in Queue Using Redis
-
-## Set Up
-`process.env.REDIS_URL` needs to be set to your Redis URL
-
-## Example
-
-```.js
 'use strict';
 
+// assumes process.env.REDIS_URL is your Redis URL
+
 const drq = require( 'drq' );
+
 
 
 (async () => {
@@ -22,7 +11,7 @@ const drq = require( 'drq' );
     await drq({
 
         queueId: 'testQueueId',
-        doOperation = () => {
+        doOperation: () => {
             
             return new Promise( resolve => {
 
@@ -41,7 +30,7 @@ const drq = require( 'drq' );
     await drq({
 
         queueId: 'testQueueId',
-        doOperation = () => {
+        doOperation: () => {
             
             return new Promise( resolve => {
 
@@ -50,21 +39,10 @@ const drq = require( 'drq' );
 
                     console.log( 'operation in queue 2' );
 
-                    resolve()
+                    resolve();
 
                 }, 1000 );
             });
         },
     });
 })();
-
-/*
-    will log after 1 second:
-
-        operation in queue 1
-
-    will log after 2 seconds:
-
-        operation in queue 2
-*/
-```
