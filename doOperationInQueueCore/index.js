@@ -1,6 +1,6 @@
 'use strict';
 
-const doRedisRequest = require( '../doOperationInQueueCore' );
+const doRedisRequest = require( '../doRedisRequest' );
 
 const {
     getKeyValues,
