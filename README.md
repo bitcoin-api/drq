@@ -23,13 +23,12 @@ const drq = require( 'drq' );
 
 (async () => {
 
-    await drq({
+    const drqOperationOne = drq({
 
         queueId: 'testQueueId',
         operation: () => {
             
             return new Promise( resolve => {
-
 
                 setTimeout( () => {
 
@@ -42,7 +41,12 @@ const drq = require( 'drq' );
         },
     });
 
-    await drq({
+    await new Promise( resolve => {
+
+        setTimeout( resolve, 10 );
+    });
+
+    const drqOperationTwo = drq({
 
         queueId: 'testQueueId',
         operation: () => {
@@ -60,7 +64,10 @@ const drq = require( 'drq' );
             });
         },
     });
+
+    await Promise.all([ drqOperationOne, drqOperationTwo ]);
 })();
+
 
 /*
     will log after 1 second:
