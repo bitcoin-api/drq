@@ -1,6 +1,6 @@
 {
   "name": "drq",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Do Redis Queue Function",
   "main": "index.js",
   "scripts": {
@@ -30,12 +30,12 @@
   },
   "funding": [
     {
-      "type" : "github",
-      "url" : "https://github.com/sponsors/bitcoin-api"
+      "type": "github",
+      "url": "https://github.com/sponsors/bitcoin-api"
     },
     {
-      "type" : "patreon",
-      "url" : "https://www.patreon.com/bitcoinapi"
+      "type": "patreon",
+      "url": "https://www.patreon.com/bitcoinapi"
     }
   ]
 }
