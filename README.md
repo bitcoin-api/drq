@@ -34,7 +34,7 @@ const drq = require( 'drq' );
 
                     console.log( 'operation in queue 1' );
 
-                    resolve();
+                    resolve( 'x' );
 
                 }, 1000 );
             });
@@ -58,14 +58,14 @@ const drq = require( 'drq' );
 
                     console.log( 'operation in queue 2' );
 
-                    resolve();
+                    resolve( 'y' );
 
                 }, 1000 );
             });
         },
     });
 
-    const results = await Promise.all([ operationOne, operationTwo ]);
+    const results = await Promise.all([ drqOperationOne, drqOperationTwo ]);
 
     console.log( 'results:', results[0], results[1] );
 })();
