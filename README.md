@@ -1,4 +1,7 @@
 # drq
+
+[![npm version](https://badge.fury.io/js/drf.svg)](https://badge.fury.io/js/drf)
+
 drq - Do Redis Queue Function
 
 

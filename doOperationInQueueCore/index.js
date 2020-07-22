@@ -14,7 +14,7 @@ const {
     delay,
     xRangeWithPagination,
     getIncrementedTimeKeyData
-} = require( '../localTools' );
+} = require( '../tools' );
 
 const waitUntilItIsTime = require( './waitUntilItIsTime' );
 

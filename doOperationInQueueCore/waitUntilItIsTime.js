@@ -10,7 +10,7 @@ const {
         // TIMEOUT
     },
     delay,
-} = require( '../localTools' );
+} = require( '../tools' );
 
 
 const getIfPreviousOperationIsStillRunning = Object.freeze( ({

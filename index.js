@@ -10,7 +10,7 @@ const {
         TIMEOUT,
         OPERATION_TIMEOUT
     }
-} = require( './localTools' );
+} = require( './tools' );
 
 const doOperationInQueueCore = require( './doOperationInQueueCore' );
 
