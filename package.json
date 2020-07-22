@@ -27,5 +27,15 @@
     "do-redis-request": "^1.0.5",
     "get-redis-client": "^1.0.4",
     "uuid": "^8.2.0"
-  }
+  },
+  "funding": [
+    {
+      "type" : "github",
+      "url" : "https://github.com/sponsors/bitcoin-api"
+    },
+    {
+      "type" : "patreon",
+      "url" : "https://www.patreon.com/bitcoinapi"
+    }
+  ]
 }
