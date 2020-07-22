@@ -2,7 +2,7 @@
 
 const uuidv4 = require( 'uuid' ).v4;
 
-const getRedisClient = require( './getRedisClient' );
+const getRedisClient = require( 'get-redis-client' );
 
 const {
     obliterateOperationFromQueue,
@@ -15,7 +15,7 @@ const {
 const doOperationInQueueCore = require( './doOperationInQueueCore' );
 
 
-const drf = async ({
+module.exports = Object.freeze( async ({
 
     queueId,
     operation = () => Promise.resolve(),
@@ -106,11 +106,4 @@ const drf = async ({
 
         throw err;
     }
-};
-
-
-drf.getRedisClient = getRedisClient;
-drf.steams = require( './streams' );
-drf.doRedisRequest = require( './doRedisRequest' );
-
-module.exports = Object.freeze( drf );
+});

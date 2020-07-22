@@ -1,6 +1,6 @@
 'use strict';
 
-const doRedisRequest = require( '../doRedisRequest' );
+const doRedisRequest = require( 'do-redis-request' );
 
 const {
     getKeyValues,

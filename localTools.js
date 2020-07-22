@@ -1,8 +1,8 @@
 'use strict';
 
-const doRedisRequest = require( './doRedisRequest' );
+const doRedisRequest = require( 'do-redis-request' );
 
-const streams = require( './streams' );
+const streams = require( '@bitcoin-api.io/redis-streams-utils' );
 
 const q = 'q';
 const TIMEOUT = 10 * 1000;
