@@ -1,6 +1,6 @@
 # Dr. Q.
 
-[![npm version](https://badge.fury.io/js/drf.svg)](https://badge.fury.io/js/drf)
+[![npm version](https://badge.fury.io/js/drq.svg)](https://badge.fury.io/js/drq)
 
 <img
     src="https://bitcoin-api.s3.amazonaws.com/images/visual_art/azubuike-drq.png"
