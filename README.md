@@ -19,6 +19,11 @@ This can be used anywhere across any system that has access your Redis database.
 It's useful for scenarios such as preventing simultaneous database updates on the same user. For example, if a user tries to update their username on two phones at the same time, Dr. Q. can ensure the operations occur in order and in sequence. To achieve this result of preventing conflicting updates, the update username operation can be performed using Dr. Q with the user's ID incorporated in the `queueId`.
 
 
+## Installation
+```
+npm install drq --save
+```
+
 ## Set Up
 `process.env.REDIS_URL` needs to be set to your Redis URL
 
