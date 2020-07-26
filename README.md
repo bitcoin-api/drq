@@ -1,13 +1,22 @@
-# drq
+# Dr. Q.
 
 [![npm version](https://badge.fury.io/js/drf.svg)](https://badge.fury.io/js/drf)
 
-drq - Do Redis Queue Function
+<img
+    src="https://bitcoin-api.s3.amazonaws.com/images/visual_art/azubuike-drq.png"
+    width="300"
+/>
+
+### Dr. Q. - Do Redis Queue Function
 
 
 ## About
 
-Do Asynchronous Operation in Queue Using Redis
+This module is used to perform asynchronous operations in a queue using Redis.
+
+This can be used anywhere across any system that has access your Redis database.
+
+It's useful for scenarios such as preventing simultaneous database updates on the same user. For example, if a user tries to update their username on two phones at the same time, Dr. Q. can ensure the operations occur in order and in sequence. To achieve this result of preventing conflicting updates, the update username operation can be performed using Dr. Q with the user's ID incorporated in the `queueId`.
 
 
 ## Set Up
@@ -84,3 +93,10 @@ const drq = require( 'drq' );
         results: x y
 */
 ```
+
+
+### Credits:
+
+**Coding:** [Michael Stecky-Efantis](https://www.linkedin.com/in/bitcoin-api) - contact for enterprise Bitcoin-Api Bitcoin and crypto integration services - add crypto to your business!
+
+**Art Design:** [Azubuike Nwadike](https://www.facebook.com/xbilldn) - contact to hire for excellent quality design and art work
