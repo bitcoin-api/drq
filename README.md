@@ -5,6 +5,7 @@
 <img
     src="https://bitcoin-api.s3.amazonaws.com/images/visual_art/azubuike-drq.png"
     width="300"
+    style="border-radius:30px"
 />
 
 ### Dr. Q. - Do Redis Queue Function
