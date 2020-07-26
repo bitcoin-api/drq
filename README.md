@@ -25,15 +25,13 @@ npm install drq --save
 ```
 
 ## Set Up
-`process.env.REDIS_URL` needs to be set to your Redis URL
+Your Redis URL can be set using the environment variable `process.env.REDIS_URL`
 
 
 ## Example
 
 ```.js
 'use strict';
-
-// assumes process.env.REDIS_URL is your Redis URL
 
 const drq = require( 'drq' );
 
