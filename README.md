@@ -25,7 +25,7 @@ npm install drq --save
 ```
 
 ## Set Up
-Your Redis URL can be set using the environment variable `process.env.REDIS_URL`
+Your Redis URL can be set using the environment variable `process.env.REDIS_URL`. The default Redis URL is `127.0.0.1:6379`.
 
 
 ## Example
