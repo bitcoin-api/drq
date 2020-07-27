@@ -1,4 +1,4 @@
-# Dr. Q.
+# Dr. Q
 
 [![npm version](https://badge.fury.io/js/drq.svg)](https://badge.fury.io/js/drq)
 
@@ -7,7 +7,7 @@
     width="300"
 />
 
-### Dr. Q. - Do Redis Queue Function
+### Dr. Q - Do Redis Queue Function
 
 
 ## About
@@ -16,7 +16,7 @@ This module is used to perform asynchronous operations in a queue using Redis.
 
 This can be used anywhere across any system that has access your Redis database.
 
-It's useful for scenarios such as preventing simultaneous database updates on the same user. For example, if a user tries to update their username on two phones at the same time, Dr. Q. can ensure the operations occur in order and in sequence. To achieve this result of preventing conflicting updates, the update username operation can be performed using Dr. Q with the user's ID incorporated in the `queueId`.
+It's useful for scenarios such as preventing simultaneous database updates on the same user. For example, if you use two phones to send a chat message to the same user at the same time, Dr. Q. can ensure those operations occur in sequence and in order. To achieve this result of preventing conflicting updates, the send chat message operation can be performed using Dr. Q with the receiving user's ID incorporated in the `queueId`.
 
 
 ## Installation
