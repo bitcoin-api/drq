@@ -27,6 +27,8 @@ npm install drq --save
 ## Set Up
 Your Redis URL can be set using the environment variable `process.env.REDIS_URL`. The default Redis URL is `127.0.0.1:6379`.
 
+The default key for the Redis stream used by Dr. Q for queueing is `Q`, although a custom stream name can be set using the `process.env.DRQ_QUEUE_NAME` environment variable.
+
 
 ## Example
 

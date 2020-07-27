@@ -4,7 +4,7 @@ const doRedisRequest = require( 'do-redis-request' );
 
 const streams = require( '@bitcoin-api.io/redis-streams-utils' );
 
-const q = 'q';
+const q = process.env.DRQ_QUEUE_NAME || 'Q';
 const TIMEOUT = 10 * 1000;
 const OPERATION_TIMEOUT = 20 * 1000;
 const START = 'start';
