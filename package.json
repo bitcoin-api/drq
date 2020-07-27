@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/bitcoin-api/drq#readme",
   "dependencies": {
-    "@bitcoin-api.io/redis-streams-utils": "^1.0.0",
-    "do-redis-request": "^1.0.5",
-    "get-redis-client": "^1.0.4",
+    "@bitcoin-api.io/redis-streams-utils": "^1.0.3",
+    "do-redis-request": "^1.0.6",
+    "get-redis-client": "^1.0.5",
     "uuid": "^8.2.0"
   },
   "funding": [
