@@ -102,6 +102,6 @@ const drq = require( 'drq' );
 
 ### Credits:
 
-**Coding:** [Michael Stecky-Efantis](https://www.linkedin.com/in/bitcoin-api) - contact for enterprise [Bitcoin-Api.io](https://bitcoin-api.io) Bitcoin and crypto services - add crypto to your business!
+**Coding:** [Michael Stecky-Efantis](https://www.linkedin.com/in/michael-se) - contact for enterprise [Bitcoin-Api.io](https://bitcoin-api.io) Bitcoin and crypto services - add crypto to your business!
 
 **Art Design:** [Azubuike Nwadike](https://www.facebook.com/xbilldn) - contact to hire for excellent quality design and art work
