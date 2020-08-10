@@ -100,8 +100,8 @@ const drq = require( 'drq' );
 ```
 
 
-### Credits:
+### Module Created by [Bitcoin-Api.io](https://bitcoin-api.io):
 
-**Coding:** [Michael Stecky-Efantis](https://www.linkedin.com/in/michael-se) - contact for enterprise [Bitcoin-Api.io](https://bitcoin-api.io) Bitcoin and crypto services - add crypto to your business!
+**Coding:** [Michael Stecky-Efantis](https://www.linkedin.com/in/michael-se) - contact for enterprise collaborations and sponsorships
 
 **Art Design:** [Azubuike Nwadike](https://www.facebook.com/xbilldn) - contact to hire for excellent quality design and art work
