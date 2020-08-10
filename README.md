@@ -100,7 +100,8 @@ const drq = require( 'drq' );
 ```
 
 
-### Module Created by [Bitcoin-Api.io](https://bitcoin-api.io):
+### Module Created by [Bitcoin-Api.io](https://bitcoin-api.io)
+
 
 **Coding:** [Michael Stecky-Efantis](https://www.linkedin.com/in/michael-se) - contact for enterprise collaborations and sponsorships
 
