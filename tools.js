@@ -4,15 +4,13 @@ const doRedisRequest = require( 'do-redis-request' );
 
 const streams = require( '@bitcoin-api.io/redis-streams-utils' );
 
-const q = process.env.DRQ_REDIS_STREAM_KEY || 'Q';
-const TIMEOUT = 10 * 1000;
-const OPERATION_TIMEOUT = 20 * 1000;
+const THE_QUEUE_NAME = process.env.DRQ_REDIS_STREAM_KEY || 'Q';
+const TIMEOUT = Number( process.env.DRQ_INITIAL_WAIT_TIMEOUT ) || (10 * 1000);
+const OPERATION_TIMEOUT = Number( process.env.DRQ_OPERATION_TIMEOUT ) || (20 * 1000);
+const PAGINATION_COUNT = Number( process.env.DRQ_PAGINATION_COUNT ) || 5000;
+const MAX_STREAM_LENGTH = Number( process.env.DRQ_MAX_STREAM_LENGTH ) || 300000;
 const START = 'start';
 const END = 'end';
-const THE_QUEUE_NAME = q;
-const PAGINATION_COUNT = 100;
-const MAX_STREAM_LENGTH = 300000;
-
 
 const getOperationTime = streams.getOperationTime;
 // const getOperationTimeKey = streams.getOperationTimeKey;

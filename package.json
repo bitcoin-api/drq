@@ -1,6 +1,6 @@
 {
   "name": "drq",
-  "version": "4.0.4",
+  "version": "4.1.0",
   "description": "Do Redis Queue Function",
   "main": "index.js",
   "scripts": {
