@@ -34,7 +34,7 @@ Environment variable settings set using `process.env.<environment variable>`
 | Environment Variable | Meaning | Default Value |
 |---|---|---|
 | `DRQ_REDIS_STREAM_KEY` | The key for the Redis stream used by Dr. Q for queueing | `Q` |
-| `DRQ_INITIAL_WAIT_TIMEOUT` | Max wait time for the previous operation in queue to finish, in milliseconds | `10000` (10 seconds) |
+| `DRQ_QUEUE_WAIT_TIMEOUT` | Max wait time for the previous operation in queue to finish before throwing a timeout error, in milliseconds | `10000` (10 seconds) |
 | `DRQ_OPERATION_TIMEOUT` | Max time allowed for the current operation to finish before throwing a timeout error, in milliseconds | `20000` (20 seconds) |
 | `DRQ_PAGINATION_COUNT` | Max number of Redis stream entries to get per iteration in the queue stream query operation | `5000` |
 | `MAX_STREAM_LENGTH` | Max number of stream entries in the Dr Q. Redis streams queue | `300000` |
