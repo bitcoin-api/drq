@@ -1,6 +1,6 @@
 {
   "name": "drq",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "Do Redis Queue Function",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bitcoin-api/drq#readme",
   "dependencies": {
-    "@bitcoin-api.io/redis-streams-utils": "^1.0.3",
+    "@bitcoin-api/redis-streams-utils": "^2.0.0",
     "do-redis-request": "^1.0.6",
     "get-redis-client": "^1.0.5",
     "uuid": "^8.2.0"
